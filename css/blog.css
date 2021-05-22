@@ -1,0 +1,58 @@
+.headerbg {
+    background-color: #42c366;
+}
+
+.text {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+}
+
+.cards {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.card {
+    /* width: 70%; */
+    background-color: #faf5f6;
+    padding: 10px;
+}
+
+.card:hover {
+    border: 2px solid #1a7233;
+    transition-duration: 100ms;
+    border-radius: 8px;
+    box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.11);
+}
+
+.card_img img {
+    border-radius: 8px;
+}
+
+.card h2 {
+    color: #42c366;
+    /* font-size: 60px; */
+    line-height: 50px;
+    font-weight: bold;
+    text-align: initial;
+}
+
+.card h3 {
+    text-align: initial;
+}
+
+.autor {
+    margin-top: 10px;
+}
+
+.autor p span{
+    color: #42c366;
+}
