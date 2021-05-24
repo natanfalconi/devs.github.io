@@ -1,0 +1,158 @@
+.socials{
+    display: flex;
+}
+
+.socials i {
+    margin: 0 10px;
+    font-size: 1.7rem;
+    transition: all 300ms ease;
+    background-color: #222326;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    color: #1a7233;
+}
+
+.socials i:hover{
+    color: #42c366;
+    cursor: pointer;
+}
+
+main .container {
+    width: 80%;
+    position: relative;
+}
+
+main .content {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+
+.title h2 {
+    margin-top: 45px;
+    width: 90%;
+}
+
+.subtitle {
+    margin: 10px 0 30px;
+}
+
+.text_notice {
+    margin-top: 20px;
+}
+
+.text_notice p{
+    margin-top: 20px;
+}
+
+.text_notice p:last-child{
+    margin-bottom: 50px;
+}
+
+.text_notice h2 {
+    margin-top: 20px;
+}
+
+.content img {
+    border-radius: 8px;
+}
+
+/* The sidebar menu */
+.sidenav {
+    content: "";
+    display: flex;
+    height: 100%; 
+    width: 250px; 
+    position: absolute; 
+    top: 0.5rem; 
+    right: -2rem;
+    /* overflow-x: hidden;  */
+    padding-top: 50px;
+    align-items: inherit;
+    flex-direction: column;
+  }
+  
+.sidenav a {
+    /* padding: 6px 8px 6px 16px; */
+    text-decoration: none;
+    /* color: black; */
+    /* display: block; */
+    /* text-align: center; */
+}
+
+.sidenav a:hover{
+    /* background-color: #42c366; */
+    color: white;
+}
+
+.sidenav_content {
+    width: 100%;
+    border: 2px solid #1a7233;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.sidenav .sidenav_content:nth-child(2) {
+    margin-top: 20px;
+}
+.sidenav .sidenav_content:nth-child(3) {
+    margin-top: 20px;
+}
+.sidenav .sidenav_content:nth-child(4) {
+    margin-top: 20px;
+}
+
+.sidenav_content p{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.sidenav_content a {
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+
+    background-color: #cf2a9a;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    height: 200px;
+    background-color: #faf5f4;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.picture {
+    width: 40%;
+    justify-content: left;
+    padding-right: 20px;
+
+}
+
+.picture img {
+    border-radius: 50%;
+}
+
+
+  
